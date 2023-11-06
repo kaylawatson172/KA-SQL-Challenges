@@ -1,0 +1,17 @@
+/**My favorite Books:
+The Scarlet Letter (5)
+Death of A Salesman (4)
+The Great Gatsby (4)
+Pride & Prejudice (3)
+**/
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO books
+VALUES (1, "The Scarlet Letter", 5),
+(2, "Death of A Salesman", 4),
+(3, "The Great Gatsby", 4),
+(4, "Pride & Prejudice", 3);
+
+SELECT *
+FROM books;
